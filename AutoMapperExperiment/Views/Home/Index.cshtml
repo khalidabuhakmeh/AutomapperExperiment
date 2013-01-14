@@ -1,0 +1,21 @@
+﻿@model AutoMapperExperiment.Models.ViewModels.IndexViewModel 
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Person Information</h2>
+
+<ul>
+    <li>@Model.Name</li>
+    <li>@Model.AddressStreet</li>
+    <li>@Model.AddressCity</li>
+</ul>
+
+<h2>Car Information</h2>
+
+<ul>
+    <li>@Model.CarMake</li>
+    <li>@Model.CarModel</li>
+    <li>@Model.CarColor</li>
+</ul>
